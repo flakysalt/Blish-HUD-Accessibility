@@ -1,4 +1,4 @@
-﻿namespace ExampleBlishhudModule
+﻿namespace flakysalt.AccessiblityBuddy
 {
     public enum ColorType
     {

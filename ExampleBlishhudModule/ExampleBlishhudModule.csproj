@@ -7,8 +7,14 @@
   <ItemGroup>
     <!--contentFiles: removes the Content folder that pops up in the solution explorer -->
     <PackageReference Include="BlishHUD" Version="1.2.0" ExcludeAssets="runtime;contentFiles;analyzers" />
+    <PackageReference Include="Microsoft.Windows.SDK.Contracts" Version="10.0.28000.1-RTM" />
     <!--building the project fails otherwise, when BlishHud assets are excluded -->
     <PackageReference Include="System.ComponentModel.Composition" Version="6.0.0" />
+    <Reference Include="System.Speech" />
+
+    <Reference Include="Windows">
+      <HintPath>C:\Program Files (x86)\Windows Kits\10\UniversalApiContract\10.0.0.0\Windows.winmd</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
